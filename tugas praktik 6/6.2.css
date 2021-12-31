@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    width: 80%;
+    background-color: khaki;
+    padding: 30px;
+    margin-left: auto;
+}
+
+.container {
+    display:flex;
+    height: 75vh;
+}
+
+.box1 {
+    background-color: skyblue;
+    margin-left: auto;
+    order: 3;
+    width: 16%;
+}
+
+.box2 {
+    background-color: white;
+    margin-left: auto;
+    order: 2;
+    flex: 1;
+}
+
+.box3 {
+    background-color: plum;
+    flex-direction: row;
+    width: 16%;
+    margin-top: -79px;
+    margin-bottom: -73px;
+}
+
+.footer {
+    width: 80%;
+    background-color: khaki;
+    padding: 30px;
+    margin-left: auto;
+}

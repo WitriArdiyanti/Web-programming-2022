@@ -1,0 +1,48 @@
+.header {
+    margin: 10px;
+    border-radius: 10px;
+    background: purple;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    height: 50vh;
+    text-align: center;
+  }
+  
+  .aside {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    background: skyblue;
+  }
+  
+  .article {
+    width: 70%;
+    border-radius: 10px;
+    margin: 10px;
+    background: pink;
+  }
+  
+  .value-content {
+    display: flex;
+  }
+  
+  .value-content div {
+    margin: 10px;
+  }
+  
+  div img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .footer {
+    margin: 10px;
+    border-radius: 10px;
+    background: purple;
+    padding: 20px;
+    text-align: center;
+  }
