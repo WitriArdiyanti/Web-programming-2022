@@ -1,0 +1,55 @@
+/* navbar */
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(img/hero-bg1.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+
+.jumbotron .display-4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron  .display-4, p {
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* testimonial */
+#testi .col-md-4 {
+  text-align: start;
+  color: white;
+  box-sizing: border-box;
+  background: gold;
+}
+
+/* features */
+#features .col-md-3 {
+  margin-bottom: 1rem;
+  
+}
+
+#features .col-md-3 p {
+  text-shadow: none;
+  color: white;
+  float: right;
+}
+
+#features .col-md-3 image{
+  width: 100px;
+
+}
+
+section{
+  padding-top: 5rem;
+}
